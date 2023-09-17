@@ -22,9 +22,15 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nenadvv/hookable"
+        }
+    ],
     "require": {
         "php": ">=7.1",
-        "sofa/hookable": "^5.5|^6.0|^7.0|^8.0",
+        "sofa/hookable": "dev-laravel-8-support",
         "illuminate/database": "^5.5|^6.0|^7.0|^8.0"
     },
     "require-dev": {
